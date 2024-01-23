@@ -1,0 +1,59 @@
+[
+    {
+        "moduleName": "security_group_rule_with_cidr",
+        "variableName": "sg_id",
+        "type": "",
+        "mappingFieldName": "",
+        "get_value_from_module_output": false
+    },
+    {
+        "moduleName": "security_group_rule_with_cidr",
+        "variableName": "from_port",
+        "type": "",
+        "mappingFieldName": "",
+        "get_value_from_module_output": false
+    },
+    {
+        "moduleName": "security_group_rule_with_cidr",
+        "variableName": "to_port",
+        "type": "",
+        "mappingFieldName": "",
+        "get_value_from_module_output": false
+    },
+    {
+        "moduleName": "security_group_rule_with_cidr",
+        "variableName": "protocol",
+        "type": "",
+        "mappingFieldName": "",
+        "get_value_from_module_output": false
+    },
+    {
+        "moduleName": "security_group_rule_with_cidr",
+        "variableName": "cidr_blocks",
+        "type": "",
+        "mappingFieldName": "",
+        "get_value_from_module_output": false
+    },
+    {
+        "moduleName": "security_group_rule_with_cidr",
+        "variableName": "type",
+        "type": "",
+        "mappingFieldName": "",
+        "get_value_from_module_output": false
+    },
+    {
+        "moduleName": "security_group_rule_with_cidr",
+        "variableName": "prefix_list_ids",
+        "type": "",
+        "mappingFieldName": "",
+        "get_value_from_module_output": false
+    },
+    {
+        "moduleName": "security_group_rule_with_cidr",
+        "variableName": "description",
+        "type": "",
+        "mappingFieldName": "",
+        "get_value_from_module_output": false
+    }
+
+]

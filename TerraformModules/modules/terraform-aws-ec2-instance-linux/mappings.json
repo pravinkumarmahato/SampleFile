@@ -1,0 +1,72 @@
+[
+[ 
+ "variableName": "tags", 
+ "mappingFieldName": "tags", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "keypair_public_key", 
+ "mappingFieldName": "SSHPublicKey.SSHPublicKeyBody", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "key_name", 
+ "mappingFieldName": "keyName", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "ami_id", 
+ "mappingFieldName": "imageId", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "vpc_type", 
+ "mappingFieldName": "", //custom variable
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "subnet_type", 
+ "mappingFieldName": "", //custom variable
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "security_group_ids", 
+ "mappingFieldName": "networkInterfaces[0].groups.groupId", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "instances", 
+ "mappingFieldName": "", //custom variable
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "ingress_rules", 
+ "mappingFieldName": "", //custom variable
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "egress_rules", 
+ "mappingFieldName": "", //custom variable
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+]

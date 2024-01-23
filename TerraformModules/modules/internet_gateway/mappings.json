@@ -1,0 +1,23 @@
+[
+    [
+        "variableName": "vpc_id",
+        "mappingFieldName": "override",
+        "isReferenceVariable": true,
+        "mappingModuleName": "vpc",
+        "mappingModuleRef": "vpcId",
+        "referenceKey": "id",
+        "isRootModuleEnabled": true,
+        "templateDefinitions": [
+            "templateId": "1",
+            "loopThrough": "attachments",
+            "containsField": "vpcId",
+            "startsWith": ""
+        ]
+    ],
+    [
+        "variableName": "tags",
+        "mappingFieldName": "tags",
+        "isReferenceVariable": false,
+        "isRootModuleEnabled": true
+    ]
+]
