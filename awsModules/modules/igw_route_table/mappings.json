@@ -1,0 +1,34 @@
+[
+    [
+        "variableName": "vpc_id",
+        "mappingFieldName": "vpcId",
+        "isReferenceVariable": true,
+        "mappingModuleName": "vpc",
+        "mappingModuleRef": "vpcId",
+        "referenceKey": "id",
+        "isMandatoryVariable": true,
+        "isRootModuleEnabled": true
+    ],
+    [
+        "variableName": "gateway_id",
+        "mappingFieldName": "override",
+        "isReferenceVariable": true,
+        "mappingModuleName": "internet_gateway",
+        "mappingModuleRef": "internetGatewayId",
+        "referenceKey": "igw_id",
+        "isMandatoryVariable": true,
+        "isRootModuleEnabled": true,
+        "templateDefinitions": [
+            "templateId": "1",
+            "loopThrough": "routes",
+            "containsField": "gatewayId",
+            "startsWith": "igw-"
+        ]
+    ],
+    [
+        "variableName": "tags",
+        "mappingFieldName": "tags",
+        "isReferenceVariable": false,
+        "isRootModuleEnabled": true
+    ]
+]

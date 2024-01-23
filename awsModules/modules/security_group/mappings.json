@@ -1,0 +1,51 @@
+[
+    {
+        "moduleName": "security_group",
+        "variableName": "custom_policies",
+        "type": "",
+        "mappingFieldName": "",
+        "get_value_from_module_output": false
+    },
+    {
+        "moduleName": "security_group",
+        "variableName": "custom_policies",
+        "type": "",
+        "mappingFieldName": "",
+        "get_value_from_module_output": false
+    },
+    {
+        "moduleName": "security_group",
+        "variableName": "custom_policies",
+        "type": "",
+        "mappingFieldName": "",
+        "get_value_from_module_output": false
+    },
+    {
+        "moduleName": "security_group",
+        "variableName": "custom_policies",
+        "type": "",
+        "mappingFieldName": "",
+        "get_value_from_module_output": false
+    },
+    {
+        "moduleName": "security_group",
+        "variableName": "custom_policies",
+        "type": "",
+        "mappingFieldName": "",
+        "get_value_from_module_output": false
+    },
+    {
+        "moduleName": "security_group",
+        "variableName": "custom_policies",
+        "type": "",
+        "mappingFieldName": "",
+        "get_value_from_module_output": false
+    },
+    {
+        "moduleName": "security_group",
+        "variableName": "custom_policies",
+        "type": "",
+        "mappingFieldName": "",
+        "get_value_from_module_output": false
+    }
+]

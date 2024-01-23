@@ -1,0 +1,34 @@
+[
+    [
+        "variableName": "subnet_ids",
+        "mappingFieldName": "subnet_ids",
+        "isReferenceVariable": true,
+        "mappingModuleName": "subnet",
+        "mappingModuleRef": "subnetId",
+        "referenceKey": "id",
+        "isMandatoryVariable": true,
+        "isRootModuleEnabled": true,
+        "templateDefinitions": [
+            "templateId": "2"
+        ]
+    ],
+    [
+        "variableName": "route_table_id",
+        "mappingFieldName": "routeTableId",
+        "isReferenceVariable": true,
+        "mappingModuleName": "nat_route_table",
+        "mappingModuleRef": "routeTableId",
+        "referenceKey": "route_table_id",
+        "isMandatoryVariable": true,
+        "isRootModuleEnabled": true
+    ],
+    [
+        "variableName": "aws_route_table_association.route_table_association",
+        "mappingFieldName": "override",
+        "isReferenceVariable": false,
+        "isRootModuleEnabled": false,
+        "templateDefinitions": [
+            "templateId": "2"
+        ]
+    ]
+]

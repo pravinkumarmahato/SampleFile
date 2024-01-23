@@ -1,0 +1,331 @@
+[
+[ 
+ "variableName": "tags", 
+ "mappingFieldName": "tags", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "snapshot_identifier", 
+ "mappingFieldName": "DBInstances[0].SourceDBSnapshotIdentifier", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "primary_cluster", 
+ "mappingFieldName": "DBInstances[0].ReplicaSourceDBInstanceIdentifier", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "replicate_source_db", 
+ "mappingFieldName": "ReadReplicaSourceDBInstanceIdentifier", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "db_instance_identifier", 
+ "mappingFieldName": "DBInstanceIdentifier", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "db_name", 
+ "mappingFieldName": "DBInstances[0].DBName", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "db_engine", 
+ "mappingFieldName": "DBInstances[0].Engine", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "db_engine_version", 
+ "mappingFieldName": "DBInstances[0].EngineVersion", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "license_model", 
+ "mappingFieldName": "DBInstances[0].LicenseModel", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "timezone", 
+ "mappingFieldName": "DBInstances[0].Timezone", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "instance_class", 
+ "mappingFieldName": "DBInstances[0].DBInstanceClass", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "vpc_type", 
+ "mappingFieldName": "", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "subnet_type", 
+ "mappingFieldName": "", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "db_port", 
+ "mappingFieldName": "DBInstances[0].DbInstancePort", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "multi_az", 
+ "mappingFieldName": "DBInstances[0].MultiAZ", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "replica_count", 
+ "mappingFieldName": "DBInstances[0].ReadReplicaDBInstanceIdentifiers | length(@)", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "allocated_storage", 
+ "mappingFieldName": "DBInstances[0].AllocatedStorage", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "max_allocated_storage", 
+ "mappingFieldName": "DBInstances[0].MaxAllocatedStorage", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "storage_type", 
+ "mappingFieldName": "DBInstances[0].StorageType", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "iops", 
+ "mappingFieldName": "DBInstances[0].StorageType.Iops", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "kms_key_arn", 
+ "mappingFieldName": "DBInstances[0].KmsKeyId", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "db_username", 
+ "mappingFieldName": "DBInstances[0].MasterUsername", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "db_password", 
+ "mappingFieldName": "", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "domain", 
+ "mappingFieldName": "DBInstances[0].Domain", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "domain_iam_role", 
+ "mappingFieldName": "DBInstances[0].DomainIAMRoleName", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "allow_major_version_upgrade", 
+ "mappingFieldName": "", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "auto_minor_version_upgrade", 
+ "mappingFieldName": "DBInstances[0].AutoMinorVersionUpgrade", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "apply_immediately", 
+ "mappingFieldName": "DBInstances[0].ApplyImmediately", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "option_group_name", 
+ "mappingFieldName": "DBInstances[0].OptionGroupMemberships[0].OptionGroupName", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "parameter_group_name", 
+ "mappingFieldName": "DBInstances[0].DBParameterGroups[0].DBParameterGroupName", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "ca_cert_identifier", 
+ "mappingFieldName": "DBInstances[0].CACertificateIdentifier", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "maintenance_window", 
+ "mappingFieldName": "DBInstances[0].PreferredMaintenanceWindow", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "backup_retention_period", 
+ "mappingFieldName": "DBInstances[0].BackupRetentionPeriod", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "backup_window", 
+ "mappingFieldName": "DBInstances[0].PreferredBackupWindow", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "enabled_cloudwatch_logs_exports", 
+ "mappingFieldName": "", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "cloudwatch_logs_retention_days", 
+ "mappingFieldName": "", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "iam_database_authentication_enabled", 
+ "mappingFieldName": "DBInstances[0].IAMDatabaseAuthenticationEnabled", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "enable_enh_monitoring", 
+ "mappingFieldName": "DBInstances[0].MonitoringInterval", // If enhanced monitoring is enabled, the value will be in seconds and greater than 0. If enhanced monitoring is not enabled, the value will be 0
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "enh_monitoring_interval", 
+ "mappingFieldName": "DBInstances[0].MonitoringInterval", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "enh_monitoring_role_arn", 
+ "mappingFieldName": "DBInstances[0].MonitoringRoleArn", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "performance_insights_enabled", 
+ "mappingFieldName": "DBInstances[0].PerformanceInsightsEnabled", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "performance_insights_retention_period", 
+ "mappingFieldName": "DBInstances[0].PerformanceInsightsRetentionPeriod", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "skip_final_snapshot", 
+ "mappingFieldName": "DBInstances[0].SkipFinalSnapshot", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "enable_deletion_protection", 
+ "mappingFieldName": "DBInstances[0].DeletionProtection", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "delete_automated_backups", 
+ "mappingFieldName": "DBInstances[0].DeleteAutomatedBackups", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "ingress_rules", 
+ "mappingFieldName": "", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+[ 
+ "variableName": "egress_rules", 
+ "mappingFieldName": "", 
+ "isReferenceVariable": false, 
+ "isRootModuleEnabled": true 
+ ], 
+
+]

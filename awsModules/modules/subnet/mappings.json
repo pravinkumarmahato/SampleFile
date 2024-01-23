@@ -1,0 +1,33 @@
+[[
+    "variableName": "cidr_block",
+    "mappingFieldName": "cidrBlock",
+    "isReferenceVariable": false,
+    "isRootModuleEnabled": true
+],
+[
+    "variableName": "map_public_ip_on_launch",
+    "mappingFieldName": "mapPublicIpOnLaunch",
+    "isReferenceVariable": false,
+    "isRootModuleEnabled": true
+],
+[
+    "variableName": "vpc_id",
+    "mappingFieldName": "vpcId",
+    "isReferenceVariable": true,
+    "mappingModuleName": "vpc",
+    "mappingModuleRef": "vpcId",
+    "referenceKey": "id",
+    "isRootModuleEnabled": true
+],
+[
+    "variableName": "az",
+    "mappingFieldName": "availabilityZone",
+    "isReferenceVariable": false,
+    "isRootModuleEnabled": true
+],
+[
+    "variableName": "tags",
+    "mappingFieldName": "tags",
+    "isReferenceVariable": false,
+    "isRootModuleEnabled": true
+]]

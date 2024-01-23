@@ -1,0 +1,29 @@
+[
+    [
+        "variableName": "subnet_id",
+        "mappingFieldName": "subnetId",
+        "isReferenceVariable": true,
+        "mappingModuleName": "subnet",
+        "mappingModuleRef": "subnetId",
+        "referenceKey": "id",
+        "isRootModuleEnabled": true
+    ],
+    [
+        "variableName": "aws_eip.nat_eip",
+        "mappingFieldName": "override",
+        "isReferenceVariable": false,
+        "isRootModuleEnabled": false,
+        "templateDefinitions": [
+            "templateId": "1",
+            "loopThrough": "natGatewayAddresses",
+            "containsField": "allocationId",
+            "startsWith": ""
+        ]
+    ],
+    [
+        "variableName": "tags",
+        "mappingFieldName": "tags",
+        "isReferenceVariable": false,
+        "isRootModuleEnabled": true
+    ]
+]
